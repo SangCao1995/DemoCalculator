@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_vertical_between">30dp</dimen>
+    <dimen name="margin_vertical_bottom">7dp</dimen>
+    <dimen name="height_button">71dp</dimen>
+    <dimen name="textsize_button">16sp</dimen>
+    <dimen name="math_operations_textview">30sp</dimen>
+    <dimen name="result_textview">65sp</dimen>
+    <dimen name="height_header">200dp</dimen>
+    <dimen name="padding_header">15dp</dimen>
+    <dimen name="width_circle_avatar">80dp</dimen>
+    <dimen name="height_circle_avatar">80dp</dimen>
+    <dimen name="border_width_avatar">2dp</dimen>
+    <dimen name="margin_bottom_avatar">15dp</dimen>
+    <dimen name="elevation_toolbar">14dp</dimen>
+</resources>

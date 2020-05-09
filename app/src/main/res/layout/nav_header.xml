@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="@dimen/padding_header"
+        android:background="@color/colorPrimary">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/width_circle_avatar"
+            android:layout_height="@dimen/height_circle_avatar"
+            app:civ_border_color="@color/white_color"
+            app:civ_border_width="@dimen/border_width_avatar"
+            android:layout_marginBottom="@dimen/margin_bottom_avatar"
+            android:src="@drawable/sang_cao_avatar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sang Cao"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="caobathanhsang@gmail.com"
+            android:textColor="@color/gray_color"/>
+    </LinearLayout>
+
+</LinearLayout>

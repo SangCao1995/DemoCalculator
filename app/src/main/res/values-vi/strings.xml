@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoCalculator</string>
+    <string name="delete_button">xóa</string>
+    <string name="clear_button">xóa tất cả</string>
+    <string name="minus_sign_button">dấu -</string>
+    <string name="sqrt_button">căn 2</string>
+    <string name="navigation_drawer_open">mở</string>
+    <string name="navigation_drawer_close">đóng</string>
+</resources>
